@@ -1,0 +1,73 @@
+============================================================
+       CURSO DE PYSPARK: ENFOQUE TOTAL EN DATAFRAMES
+============================================================
+
+NIVEL 1: FUNDAMENTOS E INGESTA (EL ARRANQUE)
+------------------------------------------------------------
+TEMA 1: Configuración de la Sesión
+   - Creación de SparkSession con SparkSession.builder.
+   - Configuración de appName y niveles de log.
+   - Concepto de Evaluación Perezosa (Lazy Evaluation).
+
+TEMA 2: Ingesta de Datos (IO)
+   - Lectura de archivos CSV (opciones: header, sep, inferSchema).
+   - Lectura de formatos JSON y Parquet (formato optimizado).
+   - Lectura de Archivos PARQUET 
+   - Definición de Schemas manuales con StructType y StructField.
+
+TEMA 3: Exploración de Datos
+   - Visualización con show(), printSchema() y select().
+   - Métodos de conteo y descripción: count(), describe() y summary().
+
+NIVEL 2: MANIPULACIÓN Y LIMPIEZA (EL DÍA A DÍA)
+------------------------------------------------------------
+TEMA 4: Operaciones con Columnas
+   - Uso de la función col().
+   - Selección de columnas con select().
+   - Crear o modificar columnas con withColumn().
+   - Renombrar con withColumnRenamed() y eliminar con drop().
+
+TEMA 5: Filtrado y Selección
+   - Uso de filter() y where().
+   - Operadores lógicos: AND (&), OR (|), NOT (~).
+   - Filtros de texto avanzados (contains, startswith, isin).
+
+TEMA 6: Limpieza de Datos (Data Cleansing)
+   - Manejo de valores nulos: na.fill(), na.drop() y coalesce().
+   - Gestión de duplicados: distinct() y dropDuplicates().
+   - Casteo de tipos de datos con cast().
+
+NIVEL 3: AGREGACIONES Y JOINS (ANÁLISIS)
+------------------------------------------------------------
+TEMA 7: Agrupamientos y Estadísticas
+   - Uso de groupBy().
+   - Funciones de agregación: sum(), avg(), count(), max(), min().
+   - Uso de agg() para cálculos múltiples en una sola línea.
+
+TEMA 8: Joins (Uniones Horizontales)
+   - Tipos de Join: inner, left, right, full, anti y semi.
+   - Cómo evitar la ambigüedad de nombres de columnas tras un join.
+
+TEMA 9: Uniones Verticales
+   - Uso de union() y unionByName().
+   - Diferencias en el manejo de esquemas al unir.
+
+NIVEL 4: ANALÍTICA AVANZADA Y OPTIMIZACIÓN
+------------------------------------------------------------
+TEMA 10: Funciones de Fecha y Tiempo
+   - Conversión de strings a fecha/tiempo con to_date() y to_timestamp().
+   - Aritmética de fechas: datediff(), add_months(), year(), month().
+
+TEMA 11: Funciones de Ventana (Window Functions)
+   - Configuración de Window.partitionBy() y orderBy().
+   - Funciones de ranking: row_number(), rank(), dense_rank().
+   - Cálculos acumulados y de desplazamiento: lead() y lag().
+
+TEMA 12: Escritura de Resultados
+   - Modos de escritura: overwrite, append, ignore, errorIfExists.
+   - Guardado en formatos CSV y Parquet.
+   - Particionamiento físico en disco con partitionBy().
+
+============================================================
+Generado para: Luis Manjarrez | Ruta: Aprendizaje Dataframes
+============================================================
