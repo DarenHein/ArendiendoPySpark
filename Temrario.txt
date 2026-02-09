@@ -11,7 +11,7 @@ TEMA 1: Configuración de la Sesión
 
 TEMA 2: Ingesta de Datos (IO)
    - Lectura de archivos CSV (opciones: header, sep, inferSchema).
-   - Lectura de formatos JSON y Parquet (formato optimizado).
+   - Lectura de formato JSON  (formato optimizado).
    - Lectura de Archivos PARQUET 
    - Definición de Schemas manuales con StructType y StructField.
 
